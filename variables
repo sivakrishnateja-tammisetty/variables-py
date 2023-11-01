@@ -1,0 +1,37 @@
+VARIABLES:
+  .variables are like containers.
+  .values in the variable we can change at any time.
+RULES FOR CREATING VARIABLE NAME:
+  0. use alphabets numbers and underscore.
+  1.Begin with alphabet or underscore(_).
+  2. cant use number as starting for variable name.
+  
+del(variablename) ====> suppose you dont want variable ,use this
+
+
+
+
+a=1
+print(a)
+b=2
+print(b)
+c=3
+print(c)
+d=a+b+c
+print(d)
+del d
+print(d)//NameError: name 'd' is not defined. Did you mean: 'id'?
+
+
+
+
+x=1
+print(x)
+x=3
+print(x)
+
+
+
+a1="Hello"
+b1=" world"
+print(a1+b1)
